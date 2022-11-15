@@ -1,0 +1,378 @@
+.slider-img .modal-body {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 8px;
+  height: 80%;
+  width: 90%;
+}
+
+.slider-img .modal-body > :first-child {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+.carousel {
+  width: 470px;
+  height: 250px;
+  margin: 20px auto;
+}
+.carousel-indicators {
+  position: relative;
+  top: 20px;
+}
+.carousel-control-next {
+  /* right: -33px; */
+  top: 100%;
+}
+.carousel-control-prev {
+  /* left: -33px; */
+  top: 100%;
+}
+.carousel-control-next,.carousel-control-prev{
+    display: none;
+}
+.img-preview {
+  width: 40%;
+  height: 80%;
+}
+/* ------------------------------------------------------------- */
+.wrapper {
+  max-width: 1090px;
+  width: 100%;
+  /* margin: 20px auto; */
+  display: flex;
+  /* flex-wrap: wrap; */
+  margin: auto;
+  justify-content: space-between;
+}
+
+.wrapper .table {
+  background: #fff;
+  width: calc(33% - 20px);
+  padding: 0px 30px;
+  margin-bottom: 0px;
+  position: relative;
+}
+
+@media (max-width: 1020px) {
+  .wrapper .table {
+    width: calc(50% - 20px);
+  }
+}
+
+@media (max-width: 698px) {
+  .wrapper .table {
+    width: 100%;
+  }
+}
+@media (min-width:992px){
+  .table .price-section{
+    position: relative;
+    top: -50px;
+    
+  }
+}
+.table .price-section {
+  display: flex;
+  justify-content: center;
+}
+
+.price-section .price-area {
+  height: 120px;
+  width: 120px;
+  background: #ffd861;
+  border-radius: 50%;
+  padding: 2px;
+}
+
+.price-section .price-area .inner-area {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  color: #fff;
+  line-height: 117px;
+  text-align: center;
+  position: relative;
+}
+
+.price-area .inner-area .text {
+  font-size: 25px;
+  font-weight: 400;
+  position: absolute;
+  top: -10px;
+  left: 17px;
+}
+
+.price-area .inner-area .price {
+  font-size: 55px;
+  font-weight: 500;
+}
+
+.table .package-name {
+  width: 100%;
+  height: 2px;
+  background: #ffecb3;
+  margin: 35px 0;
+  position: relative;
+  margin-top: 170px;
+}
+
+.table .package-name::before {
+  position: absolute;
+  content: "Basic";
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  font-size: 18px;
+  padding: 0 10px;
+  font-weight: bolder;
+}
+
+.table .features li {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.features li .list-name {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.features li .icon {
+  font-size: 15px;
+}
+
+.features li .icon.check {
+  color: #2db94d;
+}
+
+.features li .icon.cross {
+  color: #cd3241;
+}
+
+.table .btn {
+  display: flex;
+  justify-content: center;
+}
+
+.table .btn button {
+  width: 80%;
+  height: 50px;
+  font-weight: 700;
+  color: #fff;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.basic .price-area,
+.basic .inner-area {
+  background: #ffd861;
+}
+
+.basic .btn button {
+  background: #fff;
+  color: #ffd861;
+  border: 2px solid #ffd861;
+}
+
+.basic .btn button:hover {
+  border-radius: 6px;
+  background: #ffd861;
+  color: #fff;
+}
+
+.Premium .price-area,
+.Premium .inner-area {
+  background: #a26bfa;
+}
+
+.Premium .btn button {
+  background: #fff;
+  color: #a26bfa;
+  border: 2px solid #a26bfa;
+}
+
+.Premium .btn button:hover {
+  border-radius: 6px;
+  background: #a26bfa;
+  color: #fff;
+}
+
+.Ultimate .price-area,
+.Ultimate .inner-area {
+  background: #43ef8b;
+}
+
+.Ultimate .btn button {
+  background: #fff;
+  color: #43ef8b;
+  border: 2px solid #43ef8b;
+}
+
+.Ultimate .btn button:hover {
+  border-radius: 6px;
+  background: #43ef8b;
+  color: #fff;
+}
+
+.basic .package-name {
+  background: #ffecb3;
+}
+
+.Premium .package-name {
+  background: #a26bfa;
+}
+
+.Ultimate .package-name {
+  background: #43ef8b;
+}
+
+.basic .package-name::before {
+  content: "FEIYAN,15 فرش";
+}
+
+.Premium .package-name::before {
+  content: "Premium";
+}
+
+.Ultimate .package-name::before {
+  content: "Ultimate";
+}
+
+.basic ::selection,
+.basic .price-area,
+.basic .inner-area {
+  background: #ffd861;
+}
+
+.Premium ::selection,
+.Premium .price-area,
+.Premium .inner-area {
+  background: #a26bfa;
+}
+
+.Ultimate ::selection,
+.Ultimate .price-area,
+.Ultimate .inner-area {
+  background: #43ef8b;
+}
+.check > svg,.cross >svg{
+  font-size: 20px;
+}
+/* ------------------------------------------------------------- */
+s,
+strike {
+  text-decoration: none;
+  position: relative;
+}
+s::before,
+strike::before {
+  top: 50%; /*tweak this to adjust the vertical position if it's off a bit due to your font family */
+  background: red; /*this is the color of the line*/
+  opacity: 0.7;
+  content: "";
+  width: 110%;
+  position: absolute;
+  height: 0.1em;
+  border-radius: 0.1em;
+  left: -5%;
+  white-space: nowrap;
+  display: block;
+  transform: rotate(-15deg);
+}
+s.straight::before,
+strike.straight::before {
+  transform: rotate(0deg);
+  left: -1%;
+  width: 102%;
+}
+
+/* not needed */
+body {
+  font-family: "Open Sans";
+  text-align: center;
+  color: #333;
+}
+p,
+h1,
+h2 {
+  margin: 1rem;
+}
+h2 {
+  margin-top: 3rem;
+}
+code {
+  background: #eee;
+  font-size: 1.2em;
+  color: darkorange;
+  padding: 0.5em 0.5em;
+  border-radius: 5px;
+}
+a {
+  color: darkorange;
+}
+/* ------------------------------------------------------------- */
+/* Start button */
+.btn-whatsapp-pulse {
+  background: #25d366;
+  color: #25d366;
+  position: fixed;
+  z-index: 1000;
+  bottom: 25px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  padding: 35px;
+  text-decoration: none;
+  border-radius: 50%;
+  animation-name: pulse;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-iteration-count: infinite;
+}
+a:hover {
+  color: #25d366;
+}
+.btn-whatsapp-pulse>svg{
+  font-size: 50px;
+}
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.5);
+  }
+
+  80% {
+    box-shadow: 0 0 0 14px rgba(37, 211, 102, 0);
+  }
+}
+
+/* End button */
+/* ------------------------------------------------------------- */
+@media (max-width: 767px) {
+  .carousel-item > img {
+    width: 350px;
+  }
+
+  .carousel {
+    width: 350px;
+  }
+  .img-preview {
+    width: 100%;
+    height: 50%;
+  }
+}
