@@ -123,7 +123,7 @@
   background-color: #6B74EC;
   padding: 5px 5px;
   border-radius: 20px;
-  margin-top: 160px;
+  margin-top: 155px;
 }
 .table .features li {
   list-style: none;
@@ -323,7 +323,7 @@ a {
   color: #25d366;
   position: fixed;
   z-index: 1000;
-  bottom: 25px;
+  bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
   font-size: 40px;
