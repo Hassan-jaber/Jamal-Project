@@ -20,7 +20,13 @@
 }
 .carousel-indicators {
   position: relative;
-  top: 20px;
+  top: 400px;
+}
+#carouselExampleDark{
+  margin-top: 0;
+}
+.carousel-dark .carousel-indicators [data-bs-target] {
+  background-color: white;
 }
 .carousel-control-next {
   /* right: -33px; */
@@ -111,27 +117,14 @@
   font-weight: 500;
 }
 
-.table .package-name {
-  width: 100%;
-  height: 2px;
-  background: #ffecb3;
-  margin: 35px 0;
-  position: relative;
-  margin-top: 170px;
-}
 
-.table .package-name::before {
-  position: absolute;
-  content: "Basic";
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: #fff;
-  font-size: 18px;
-  padding: 0 10px;
-  font-weight: bolder;
+.features{
+  color: white;
+  background-color: #6B74EC;
+  padding: 5px 5px;
+  border-radius: 20px;
+  margin-top: 190px;
 }
-
 .table .features li {
   list-style: none;
   display: flex;
@@ -155,7 +148,22 @@
 .features li .icon.cross {
   color: #cd3241;
 }
-
+.price{
+  width: 100%;
+  height: 60px;
+  background-color: #FF888B;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px;
+}
+.price>:nth-child(1){
+  display: flex;
+  flex-direction: column;
+}
 .table .btn {
   display: flex;
   justify-content: center;
@@ -225,29 +233,16 @@
   color: #fff;
 }
 
-.basic .package-name {
-  background: #ffecb3;
-}
 
-.Premium .package-name {
-  background: #a26bfa;
-}
 
-.Ultimate .package-name {
-  background: #43ef8b;
-}
 
-.basic .package-name::before {
-  content: "فرش";
-}
 
-.Premium .package-name::before {
-  content: "Premium";
-}
 
-.Ultimate .package-name::before {
-  content: "Ultimate";
-}
+
+
+
+
+
 
 .basic ::selection,
 .basic .price-area,
@@ -278,14 +273,14 @@ strike {
 s::before,
 strike::before {
   top: 50%; /*tweak this to adjust the vertical position if it's off a bit due to your font family */
-  background: red; /*this is the color of the line*/
+  background: black; /*this is the color of the line*/
   opacity: 0.7;
   content: "";
-  width: 110%;
+  width: 50%;
   position: absolute;
   height: 0.1em;
   border-radius: 0.1em;
-  left: -5%;
+  left: 25%;
   white-space: nowrap;
   display: block;
   transform: rotate(-15deg);
@@ -301,7 +296,7 @@ strike.straight::before {
 body {
   font-family: "Open Sans";
   text-align: center;
-  color: #333;
+  background-color: #1D1B32;
 }
 p,
 h1,
