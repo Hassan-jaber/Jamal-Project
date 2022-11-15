@@ -140,8 +140,8 @@
 }
 
 .features li .list-name {
-  font-size: 15px;
-  font-weight: 400;
+  font-size: 17px;
+  font-weight: 800;
 }
 
 .features li .icon {
@@ -238,7 +238,7 @@
 }
 
 .basic .package-name::before {
-  content: "FEIYAN,15 فرش";
+  content: "فرش";
 }
 
 .Premium .package-name::before {
@@ -335,8 +335,8 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 60px;
-  height: 60px;
+  width: 70px;
+  height: 70px;
   padding: 35px;
   text-decoration: none;
   border-radius: 50%;
@@ -349,7 +349,7 @@ a:hover {
   color: #25d366;
 }
 .btn-whatsapp-pulse>svg{
-  font-size: 50px;
+  font-size: 60px;
 }
 @keyframes pulse {
   0% {
