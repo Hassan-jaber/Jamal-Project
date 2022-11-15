@@ -1,17 +1,625 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>product</title>
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/all.min.css" />
     <link rel="stylesheet" href="css/style.css" />
-</head>
-<body>
+  </head>
+  <body>
+    <div class="container">
+         <!-- <div class="wrapper"> -->
+
+         
+               <div class="table basic">
+           <div class="price-section">
+      <div class="slider-img">
+        <div
+          id="carouselExampleDark"
+          class="carousel carousel-dark"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="3"
+              aria-label="Slide 4"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="4"
+              aria-label="Slide 5"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="5"
+              aria-label="Slide 6"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="6"
+              aria-label="Slide 7"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="7"
+              aria-label="Slide 8"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="8"
+              aria-label="Slide 9"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="9"
+              aria-label="Slide 10"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="10"
+              aria-label="Slide 11"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <!-- Button trigger modal -->
+              <img
+                src="images/1.jpeg"
+                width="100%"
+                type="button"
+                class="btn"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+              />
+              <!-- Modal -->
+              <div
+                class="modal mw-100"
+                style="background-color: #5b5b5b"
+                id="exampleModal"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <!-- <div class="modal-dialog modal-fullscreen-sm-down"> -->
+                <div class="modal-dialog min-vh-100 mw-100">
+                  <div class="modal-content mw-100 border-0">
+                    <div
+                      class="modal-body d-flex justify-content-center align-items-center bg-black border-0"
+                    >
+                      <button
+                        type="button"
+                        class="bg-transparent border-0"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      >
+                        <i class="fa-solid fa-xmark fa-2x text-white"></i>
+                      </button>
+                      <img src="images/1.jpeg" class="img-preview"/>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <!-- Button trigger modal -->
+              <img
+                src="images/2.jpeg"
+                width="100%"
+                type="button"
+                class="btn"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal2"
+              />
+              <!-- Modal -->
+              <div
+                class="modal mw-100"
+                style="background-color: #5b5b5b"
+                id="exampleModal2"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <!-- <div class="modal-dialog modal-fullscreen-sm-down"> -->
+                <div class="modal-dialog min-vh-100 mw-100">
+                  <div class="modal-content mw-100 border-0">
+                    <div
+                      class="modal-body d-flex justify-content-center align-items-center bg-black border-0"
+                    >
+                      <button
+                        type="button"
+                        class="bg-transparent border-0"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      >
+                        <i class="fa-solid fa-xmark fa-2x text-white"></i>
+                      </button>
+                      <img src="images/2.jpeg" class="img-preview"/>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <!-- Button trigger modal -->
+              <img
+                src="images/3.jpeg"
+                                width="100%"
+
+                type="button"
+                class="btn"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal3"
+              />
+              <!-- Modal -->
+              <div
+                class="modal mw-100"
+                id="exampleModal3"
+                style="background-color: #5b5b5b"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <!-- <div class="modal-dialog modal-fullscreen-sm-down"> -->
+                <div class="modal-dialog min-vh-100 mw-100">
+                  <div class="modal-content mw-100 border-0">
+                    <div
+                      class="modal-body d-flex justify-content-center align-items-center bg-black border-0"
+                    >
+                      <button
+                        type="button"
+                        class="bg-transparent border-0"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      >
+                        <i class="fa-solid fa-xmark fa-2x text-white"></i>
+                      </button>
+                      <img src="images/3.jpeg" class="img-preview" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- --------------------------------------------------------------------------- -->
+            <div class="carousel-item">
+              <!-- Button trigger modal -->
+              <img
+                src="images/4.jpeg"
+                                width="100%"
+
+                type="button"
+                class="btn"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal4"
+              />
+              <!-- Modal -->
+              <div
+                class="modal mw-100"
+                id="exampleModal4"
+                style="background-color: #5b5b5b"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <!-- <div class="modal-dialog modal-fullscreen-sm-down"> -->
+                <div class="modal-dialog min-vh-100 mw-100">
+                  <div class="modal-content mw-100 border-0">
+                    <div
+                      class="modal-body d-flex justify-content-center align-items-center bg-black border-0"
+                    >
+                      <button
+                        type="button"
+                        class="bg-transparent border-0"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      >
+                        <i class="fa-solid fa-xmark fa-2x text-white"></i>
+                      </button>
+                      <img src="images/4.jpeg" class="img-preview"/>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- --------------------------------------------------------------------------- -->
+
+            <!-- --------------------------------------------------------------------------- -->
+            <div class="carousel-item">
+              <!-- Button trigger modal -->
+              <img
+                src="images/5.jpeg"
+                                width="100%"
+
+                type="button"
+                class="btn"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal5"
+              />
+              <!-- Modal -->
+              <div
+                class="modal mw-100"
+                id="exampleModal5"
+                style="background-color: #5b5b5b"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <!-- <div class="modal-dialog modal-fullscreen-sm-down"> -->
+                <div class="modal-dialog min-vh-100 mw-100">
+                  <div class="modal-content mw-100 border-0">
+                    <div
+                      class="modal-body d-flex justify-content-center align-items-center bg-black border-0"
+                    >
+                      <button
+                        type="button"
+                        class="bg-transparent border-0"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      >
+                        <i class="fa-solid fa-xmark fa-2x text-white"></i>
+                      </button>
+                      <img src="images/5.jpeg" class="img-preview"/>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- --------------------------------------------------------------------------- -->
+
+            <!-- --------------------------------------------------------------------------- -->
+            <div class="carousel-item">
+              <!-- Button trigger modal -->
+              <img
+                src="images/6.jpeg"
+                                width="100%"
+
+                type="button"
+                class="btn"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal6"
+              />
+              <!-- Modal -->
+              <div
+                class="modal mw-100"
+                id="exampleModal6"
+                style="background-color: #5b5b5b"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <!-- <div class="modal-dialog modal-fullscreen-sm-down"> -->
+                <div class="modal-dialog min-vh-100 mw-100">
+                  <div class="modal-content mw-100 border-0">
+                    <div
+                      class="modal-body d-flex justify-content-center align-items-center bg-black border-0"
+                    >
+                      <button
+                        type="button"
+                        class="bg-transparent border-0"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      >
+                        <i class="fa-solid fa-xmark fa-2x text-white"></i>
+                      </button>
+                      <img src="images/6.jpeg" class="img-preview"/>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- --------------------------------------------------------------------------- -->
+
+            <!-- --------------------------------------------------------------------------- -->
+            <div class="carousel-item">
+              <!-- Button trigger modal -->
+              <img
+                src="images/7.jpeg"
+                                width="100%"
+
+                type="button"
+                class="btn"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal7"
+              />
+              <!-- Modal -->
+              <div
+                class="modal mw-100"
+                id="exampleModal7"
+                style="background-color: #5b5b5b"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <!-- <div class="modal-dialog modal-fullscreen-sm-down"> -->
+                <div class="modal-dialog min-vh-100 mw-100">
+                  <div class="modal-content mw-100 border-0">
+                    <div
+                      class="modal-body d-flex justify-content-center align-items-center bg-black border-0"
+                    >
+                      <button
+                        type="button"
+                        class="bg-transparent border-0"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      >
+                        <i class="fa-solid fa-xmark fa-2x text-white"></i>
+                      </button>
+                      <img src="images/7.jpeg" class="img-preview"/>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- --------------------------------------------------------------------------- -->
+
+            <!-- --------------------------------------------------------------------------- -->
+            <div class="carousel-item">
+              <!-- Button trigger modal -->
+              <img
+                src="images/8.jpeg"
+                                width="100%"
+
+                type="button"
+                class="btn"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal8"
+              />
+              <!-- Modal -->
+              <div
+                class="modal mw-100"
+                id="exampleModal8"
+                style="background-color: #5b5b5b"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <!-- <div class="modal-dialog modal-fullscreen-sm-down"> -->
+                <div class="modal-dialog min-vh-100 mw-100">
+                  <div class="modal-content mw-100 border-0">
+                    <div
+                      class="modal-body d-flex justify-content-center align-items-center bg-black border-0"
+                    >
+                      <button
+                        type="button"
+                        class="bg-transparent border-0"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      >
+                        <i class="fa-solid fa-xmark fa-2x text-white"></i>
+                      </button>
+                      <img src="images/8.jpeg" class="img-preview" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- --------------------------------------------------------------------------- -->
+
+            <!-- --------------------------------------------------------------------------- -->
+            <div class="carousel-item">
+              <!-- Button trigger modal -->
+              <img
+                src="images/9.jpeg"
+                                width="100%"
+
+                type="button"
+                class="btn"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal9"
+              />
+              <!-- Modal -->
+              <div
+                class="modal mw-100"
+                id="exampleModal9"
+                style="background-color: #5b5b5b"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <!-- <div class="modal-dialog modal-fullscreen-sm-down"> -->
+                <div class="modal-dialog min-vh-100 mw-100">
+                  <div class="modal-content mw-100 border-0">
+                    <div
+                      class="modal-body d-flex justify-content-center align-items-center bg-black border-0"
+                    >
+                      <button
+                        type="button"
+                        class="bg-transparent border-0"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      >
+                        <i class="fa-solid fa-xmark fa-2x text-white"></i>
+                      </button>
+                      <img src="images/9.jpeg" class="img-preview"/>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- --------------------------------------------------------------------------- -->
+            <!-- --------------------------------------------------------------------------- -->
+            <div class="carousel-item">
+              <!-- Button trigger modal -->
+              <img
+                src="images/10.jpeg"
+                                width="100%"
+
+                type="button"
+                class="btn"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal9"
+              />
+              <!-- Modal -->
+              <div
+                class="modal mw-100"
+                id="exampleModal9"
+                style="background-color: #5b5b5b"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <!-- <div class="modal-dialog modal-fullscreen-sm-down"> -->
+                <div class="modal-dialog min-vh-100 mw-100">
+                  <div class="modal-content mw-100 border-0">
+                    <div
+                      class="modal-body d-flex justify-content-center align-items-center bg-black border-0"
+                    >
+                      <button
+                        type="button"
+                        class="bg-transparent border-0"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      >
+                        <i class="fa-solid fa-xmark fa-2x text-white"></i>
+                      </button>
+                      <img src="images/10.jpeg" class="img-preview"/>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- --------------------------------------------------------------------------- -->
+            <!-- --------------------------------------------------------------------------- -->
+            <div class="carousel-item">
+              <!-- Button trigger modal -->
+              <img
+                src="images/11.jpeg"
+                                width="100%"
+
+                type="button"
+                class="btn"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal9"
+              />
+              <!-- Modal -->
+              <div
+                class="modal mw-100"
+                id="exampleModal9"
+                style="background-color: #5b5b5b"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <!-- <div class="modal-dialog modal-fullscreen-sm-down"> -->
+                <div class="modal-dialog min-vh-100 mw-100">
+                  <div class="modal-content mw-100 border-0">
+                    <div
+                      class="modal-body d-flex justify-content-center align-items-center bg-black border-0"
+                    >
+                      <button
+                        type="button"
+                        class="bg-transparent border-0"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      >
+                        <i class="fa-solid fa-xmark fa-2x text-white"></i>
+                      </button>
+                      <img src="images/11.jpeg" class="img-preview"/>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- --------------------------------------------------------------------------- -->
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+           </div>
+           <div class="package-name">
     
+           </div>
+           <div class="features">
+               <li>
+                   <span class="icon check"><i class="fas fa-check-circle"></i></span>
+                   <span class="list-name"> قطعة من الشعر النباتي <span>FEIYAN,15</span> مجموعة فرش</span>
+               </li>
+               <li>
+                   <span class="icon check"><i class="fas fa-check-circle"></i></span>
+                   <span class="list-name">مجموعة من مستحضرات التجميل كاملة احترافية</span>
+               </li>
+               <li>
+                   <span class="icon check"><i class="fas fa-check-circle"></i></span>
+                   <span class="list-name">باللون الاسود والذهبي والوردي</span>
+               </li>
+                <li>
+                    <span class="icon cross"><i class="far fa-times-circle"></i></span>
+                    <span class="list-name">السعر قبل <s>375</s> درهم</span>
+               </li>
+               <li>
+                <span class="icon check"><i class="fas fa-check-circle"></i></span>
+                <span>السعر بعد 255 درهم</span>
+               </li>
+<!-- Start  whatsapp btn call-->
+    <div class="container">
+      <a
+        href="https://api.whatsapp.com/send?phone=971505050940&text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%20..%20%D9%83%D9%8A%D9%81%20%D8%A7%D9%84%D8%AD%D8%A7%D9%84%20%D8%9F"
+        target="_blank"
+        class="btn-whatsapp-pulse"
+      >
+        <i class="fab fa-whatsapp"></i>
+      </a>
+    </div>
+    <!-- End whatsapp btn call-->
+           </div>
+       </div>
+<!-- </div> -->
+       <!-- ---------------- -->
+    
+    
+
+    </div>
+
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/all.min.js"></script>
-</body>
+  </body>
 </html>
