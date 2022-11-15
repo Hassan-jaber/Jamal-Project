@@ -120,16 +120,18 @@
 
 .features{
   color: white;
-  background-color: #6B74EC;
-  padding: 5px 5px;
-  border-radius: 20px;
+  background: linear-gradient(to right, #606c88, #3f4c6b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding-top: 5px;
+  border-radius:20px 20px;
   margin-top: 155px;
+  padding-bottom: 0px;
 }
 .table .features li {
   list-style: none;
   display: flex;
   justify-content: space-between;
   margin-bottom: 15px;
+  padding: 0px 5px;
 }
 
 .features li .list-name {
@@ -151,7 +153,9 @@
 .price{
   width: 100%;
   height: 60px;
-  background-color: #FF888B;
+  position: relative;
+  bottom: 0;
+  background: linear-gradient(to right, #b993d6, #8ca6db); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   border-radius: 20px;
   font-size: 20px;
   font-weight: 700;
